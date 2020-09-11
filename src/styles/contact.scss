@@ -1,0 +1,315 @@
+// Imports
+@import "variables.scss";
+@import "nav.scss";
+
+.app-contact {
+  font-family: $font;
+  letter-spacing: 0.2px !important;
+  background: $bColor !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+// Contact
+.contact {
+    width: 100%;
+    height: 32em;
+    background: $bColor;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    position: relative;
+  }
+  
+  .cont {
+    margin-top: 1em !important;
+    position: relative;
+    top: 0% !important;
+    left: 50% !important;
+    transform: translate(-50%, 0%) !important;
+  }
+  
+  .c-hed {
+    text-align: center;
+    font-family: $font !important;
+    font-weight: 800 !important;
+    font-size: 3rem !important;
+    color: $color4;
+    -webkit-text-stroke: 2px $color2;
+    letter-spacing: 0.2px;
+  }
+  
+  .conForm {
+    padding-top: 2em !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  
+    input[type = "name"], input[type = "email"] {
+      background: none !important;
+      font-family: $font !important;
+      font-weight: 600 !important;
+      display: block;
+      margin: 30px auto !important;
+      border: 2px solid $color2;
+      padding: 12px 5% !important;
+      width: 300px;
+      height: 2.2em;
+      outline: none;
+      color: $color2;
+      transition: 250ms ease;
+      border-radius: 8px !important;
+      font-size: 15px;
+      letter-spacing: 0.2px !important;
+    }
+  
+    textarea[type = "text"] {
+      background: none !important;
+      font-family: $font !important;
+      font-weight: 600 !important;
+      display: block;
+      margin: 30px auto !important;
+      border: 2px solid $color2;
+      padding: 20px 5% !important;
+      width: 300px;
+      height: 80px;
+      outline: none;
+      color: $color2;
+      transition: 250ms ease;
+      border-radius: 8px !important;
+      font-size: 15px;
+      letter-spacing: 0.2px !important;
+    }
+  
+    ::placeholder {
+      color: $color2 !important;
+      font-size: 15px;
+      letter-spacing: 0.2px !important;
+      opacity: 0.7 !important;
+    }
+    :-ms-input-placeholder {
+      color: $color2 !important;
+      font-size: 15px;
+      letter-spacing: 0.2px !important;
+      opacity: 0.7 !important;
+    }
+  
+    input:focus::placeholder {
+      color: transparent !important;
+    }
+  
+    textarea:focus::placeholder {
+      color: transparent !important;
+    }
+  
+    // Labels
+    .f-d {
+    width: 400px !important;
+    position: relative;
+    margin: 0 auto !important;
+    }
+  
+    .s-l {
+      margin-left: 1em !important;
+      margin-right: 1em !important;
+      background: $color4;
+      border-radius: 30px;
+      padding: 0.25em 1em !important;
+      border: 2px solid $color2;
+      text-transform: uppercase;
+      color: $bColor;
+      font-size: 12px;
+      font-weight: 600 !important;
+    }
+  
+    .name-label {
+      position: absolute;
+      top: -26%;
+      left: 12% !important;
+      transform: translate(-12%, 26%) !important;
+    }
+  
+    .mail-label {
+      position: absolute;
+      top: -26%;
+      left: 11% !important;
+      transform: translate(-11%, 26%) !important;
+    }
+  
+    .mes-label {
+      position: absolute;
+      top: -10%;
+      left: 12% !important;
+      transform: translate(-12%, 10%) !important;
+    }
+  
+    .slide {
+      background: none;
+      width: 180px;
+      font-family: $font !important;
+      font-weight: 600 !important;
+      display: block;
+      margin: 20px auto !important;
+      text-align: center;
+      border: 2px solid $color2;
+      padding: 12px 38px !important;
+      outline: none;
+      color: $color2;
+      font-size: 15px !important;
+      letter-spacing: 0.2px !important;
+      transition: all 500ms ease !important;
+      border-radius: 8px !important;
+      cursor: pointer !important;
+  
+      &:hover, &:focus {
+        box-shadow: inset 15em 0 0 0 $color4;
+        color: $bColor;
+      }
+      &:active {
+        transform: scale(0.96);
+      }
+    }
+  }
+
+  // Media Queries
+  // 1024px
+@media screen and (max-width: 1024px) {
+  .contact {
+    height: 100vh !important;
+  }
+
+  .cont {
+    margin-top: 0em !important;
+    position: absolute;
+    top: 36% !important;
+    left: 50% !important;
+    transform: translate(-50%, -36%) !important;
+  }
+}
+
+// 768px
+@media screen and (max-width: 768px) {
+  .cont {
+    margin-top: 0em !important;
+    position: absolute;
+    top: 31% !important;
+    left: 50% !important;
+    transform: translate(-50%, -31%) !important;
+  }
+}
+
+  // 575px
+@media screen and (max-width: 575px) {
+  .contact {
+    height: 36em !important;
+  }
+
+  .cont {
+    margin-top: 1em !important;
+    position: absolute;
+    top: 0% !important;
+    left: 50% !important;
+    transform: translate(-50%, 0%) !important;
+  }
+
+    .conForm {
+        .f-d {
+          width: 320px !important;
+        }
+    
+        input[type = "name"], input[type = "email"], textarea[type = "text"] {
+        width: 260px !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+      }
+    
+      .s-l {
+        font-size: 10px;
+      }
+
+      .name-label {
+        position: absolute;
+        top: -26%;
+        left: 8% !important;
+        transform: translate(-8%, 26%) !important;
+      }
+    
+      .mail-label {
+        position: absolute;
+        top: -26%;
+        left: 7% !important;
+        transform: translate(-7%, 26%) !important;
+      }
+    
+      .mes-label {
+        position: absolute;
+        top: -10%;
+        left: 8% !important;
+        transform: translate(-8%, 10%) !important;
+      }
+     }
+}
+
+// 667px & 375px
+@media screen and (min-height: 667px) {
+  @media screen and (min-width: 375px) {
+    .cont {
+      margin-top: 0.5em !important;
+    }
+  }
+  }
+
+// 731px
+  @media screen and (min-height: 731px) {
+    .cont {
+      margin-top: 1em !important;
+    }
+  }
+
+// 360px
+@media screen and (max-width: 360px) {
+  .cont {
+    margin-top: 0.5em !important;
+  }
+}
+
+// 320px
+@media screen and (max-width: 320px) {
+  .contact {
+    height: 35em !important;
+  }
+
+  .cont {
+    margin-top: 0em !important;
+  }
+
+    .c-hed {
+        font-size: 2.5rem !important;
+      }
+  
+      .conForm {
+        input[type = "name"], input[type = "email"], textarea[type = "text"] {
+        width: 220px !important;
+        padding-left: 5% !important;
+        padding-right: 5% !important;
+      }
+  
+      .name-label {
+        position: absolute;
+        top: -26%;
+        left: 18% !important;
+        transform: translate(-18%, 26%) !important;
+      }
+    
+      .mail-label {
+        position: absolute;
+        top: -26%;
+        left: 16% !important;
+        transform: translate(-16%, 26%) !important;
+      }
+    
+      .mes-label {
+        position: absolute;
+        top: -10%;
+        left: 18% !important;
+        transform: translate(-18%, 10%) !important;
+      }
+    }
+}

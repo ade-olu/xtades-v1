@@ -1,0 +1,331 @@
+// Imports
+@import "variables.scss";
+@import "nav.scss";
+
+body {
+    font-family: $font;
+    overflow-x: hidden !important;
+    overflow-y: auto !important;
+    background: $bColor !important;
+    -webkit-tap-highlight-color: transparent !important;
+  }
+  
+  .app-designs {
+      font-family: $font;
+      letter-spacing: 0.2px !important;
+      background: $bColor !important;
+      -webkit-tap-highlight-color: transparent !important;
+    }
+  
+    // Designs
+  .designs {
+      width: 100%;
+      height: auto !important;
+      background: $color4;
+      padding-bottom: 5em !important;
+    }
+    
+    .ds {
+      font-family: $font !important;
+      font-weight: 800 !important;
+      font-size: 3rem !important;
+      color: $bColor;
+      -webkit-text-stroke: 2px $color2;
+      letter-spacing: 0.2px !important;
+      text-align: center;
+    }
+  
+    .des {
+        padding-top: 1em !important;
+    }
+
+// Menu Links
+.designs-menu {
+    padding-top: 2em !important;
+}
+
+.menu-links {
+    display: flex !important;  
+    flex-direction: row;
+    list-style: none;
+    align-content: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .menu-links li {
+    margin-left: 1.5em !important;
+    margin-right: 1.5em !important;
+    font-size: 20px;
+    align-content: center !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+  
+  .menu-links li a {
+    color: $color2 !important;
+    font-family: $font !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+    outline: none !important;
+    letter-spacing: 0.2px;
+  }
+
+  // Menu Links Animation
+#mAni,
+#mAni:after,
+#mAni:before {
+  transition: all 0.3s;
+}
+
+#mAni:hover {
+  color: $color2;
+}
+
+#mAni {
+  position: relative;
+}
+
+#mAni {
+  &:after {
+  position: absolute;
+  bottom: -4px !important;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: $bColor;
+  border-radius: 50px !important;
+  height: 2px;
+  }
+}
+
+#mAni:hover:after {
+  width: 100%;
+}
+
+.d-gallery {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: space-evenly !important;
+    align-content: center !important;
+    align-items: flex-start !important;
+    flex-wrap: wrap !important;
+    padding: 2em 0em 0em 0em !important;
+
+    a {
+      text-decoration: none !important;
+      color: $color2 !important;
+    }
+  }
+  
+  .de-signs {
+   position: relative;
+    margin: 2em 4em 2em 4em !important;
+  
+    img {
+      width: 500px;
+      height: 400px !important;
+      object-fit: cover !important;
+      border-radius: 8px !important;
+    }
+  }
+  
+  #ui1, #ui2, #ui3, #ui4 {
+    width: 500px !important;
+    height: 400px !important;
+    border-radius: 8px !important;
+  }
+
+  #ui1 {
+    background: $bColor;
+  }
+
+  #uFit {
+    object-fit: contain !important;
+    border-radius: 8px !important;
+  }
+
+  #ui2 {
+    background: #EA4C89;
+  }
+  
+  #ui3 {
+    background: #DDE2FD;
+  }
+  
+  #ui4 {
+    background: #00070F;
+  }
+  
+  // Space
+  .u-sp {
+    visibility: hidden !important;
+  }
+
+// Illustrations
+.app-3d {
+  font-family: $font;
+  letter-spacing: 0.2px !important;
+  background: $bColor !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.i-img {
+  width: 500px;
+  height: 400px !important;
+  object-fit: cover !important;
+  border-radius: 8px;
+}
+
+// Space
+.i-sp {
+  width: 500px !important;
+  height: 400px !important;
+  visibility: hidden;
+  object-fit: cover !important;
+  border-radius: 8px;
+}
+
+// 3D
+.app-3d {
+  font-family: $font;
+  letter-spacing: 0.2px !important;
+  background: $bColor !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
+
+.t-img {
+  width: 500px;
+  height: 400px !important;
+  object-fit: cover !important;
+  border-radius: 8px;
+}
+
+// Space
+.t-sp {
+  width: 500px !important;
+  height: 400px !important;
+  visibility: hidden;
+  object-fit: cover !important;
+  border-radius: 8px;
+}
+
+// Media Queries
+// 1024px
+@media screen and (max-width: 1024px) {
+  .d-gallery {
+    padding: 2em 4em 0em 4em !important;
+  }
+
+  .de-signs {
+    margin: 2em !important;
+  }
+
+  #sPa {
+    display: none !important;
+  }
+}
+
+// 411px & 575px
+@media screen and (min-width: 411px) {
+  @media screen and (max-width: 575px) {
+    .designs {
+      padding-bottom: 4em !important;
+    }
+
+    .de-signs {
+
+       img {
+         width: 360px;
+         height: 315px !important;
+         object-fit: cover !important;
+         border-radius: 8px !important;
+       }
+     }
+     
+     #ui1, #ui2, #ui3, #ui4 {
+       width: 360px !important;
+       height: 315px !important;
+       border-radius: 8px !important;
+     }
+  }
+}
+
+// 375px & 380px
+@media screen and (min-width: 375px) {
+  @media screen and (max-width: 380px) {
+    .designs {
+      padding-bottom: 4em !important;
+    }
+
+    .de-signs {
+
+       img {
+         width: 330px;
+         height: 315px !important;
+         object-fit: cover !important;
+         border-radius: 8px !important;
+       }
+     }
+     
+     #ui1, #ui2, #ui3, #ui4 {
+       width: 330px !important;
+       height: 315px !important;
+       border-radius: 8px !important;
+     }
+  }
+}
+
+// 731px
+@media screen and (min-height: 731px) {
+  .des {
+    padding-top: 1em !important;
+  }
+}
+
+// 360px
+@media screen and (max-width: 360px) {
+  .des {
+    padding-top: 0.5em !important;
+  }
+}
+
+// 320px
+@media screen and (max-width: 320px) {
+  .designs {
+    padding-bottom: 4em !important;
+  }
+
+  .menu-links li {
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+    font-size: 18px !important;
+  }
+
+  .des {
+    padding-top: 0em !important;
+  }
+
+  .ds {
+    font-size: 2.5rem !important;
+  }
+
+  .de-signs {
+
+    img {
+      width: 280px;
+      height: 300px !important;
+      object-fit: cover !important;
+      border-radius: 8px !important;
+    }
+  }
+  
+  #ui1, #ui2, #ui3, #ui4 {
+    width: 280px !important;
+    height: 300px !important;
+    border-radius: 8px !important;
+  }
+}

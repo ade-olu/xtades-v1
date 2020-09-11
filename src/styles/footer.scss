@@ -1,0 +1,268 @@
+// Footer
+.ftr {
+  position: relative !important;
+  width: 100%;
+  height: 100vh;
+  background: $color4;
+}
+
+.foot {
+  position: relative;
+  top: 40% !important;
+  left: 50% !important;
+  transform: translate(-50%, -40%) !important;
+}
+
+.br-e {
+  display: none !important;
+}
+
+.f-t {
+  padding-right: 15% !important;
+  padding-left: 15% !important;
+}
+
+.h-3 {
+  letter-spacing: 5px;
+  font-family: $font !important;
+  font-weight: 600 !important;
+  font-size: 22px !important;
+  color: $color2;
+  text-transform: uppercase;
+}
+
+.em {
+  font-family: $font !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.2px !important;
+  margin-top: 2em !important;
+  font-size: 20px !important;
+  transition: all 250ms ease;
+  color: $color2;
+
+  &:hover {
+    color: $bColor;
+  }
+}
+
+.f-t a {
+  text-decoration: none;
+  color: $color2;
+
+  &:hover {
+    color: $bColor;
+  }
+
+  #iId {
+    transition: all 250ms ease;
+
+    &:hover, &:active {
+      transform: scale(1.2);
+    }
+  }
+}
+
+.f-bt {
+  position: relative;
+}
+
+.ft-er {
+  position: absolute;
+  top: 0% !important;
+  right: 0% !important;
+  transform: translate(0%, 0%) !important;
+  display: flex;
+  flex-direction: row;
+
+  a {
+    margin-left: 1.5em !important;
+    font-size: 22px;
+  }
+
+  a:nth-child(1) {
+    margin-left: 0 !important;
+  }
+}
+
+#far-fa {
+  font-size: 16px !important;
+}
+
+.par {
+  font-family: $font !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.2px !important;
+  font-size: 20px !important;
+  color: $color2;
+}
+
+.acc {
+  text-decoration: none !important;
+  color: $color2 !important;
+  font-size: 10px !important;
+  transition: all 400ms ease;
+  color: $color2;
+
+  &:hover {
+    color: $color4 !important;
+  }
+}
+
+.h-line {
+  width: 100%;
+  height: 0.05em !important;
+  background: $color2;
+  border-radius: 30px;
+}
+
+  // Media Queries
+  // 1024px
+  @media screen and (max-width: 1024px) {
+    .ftr {
+      height: 50vh !important;
+    }
+
+    .f-br {
+      display: none;
+    }
+
+    .foot {
+      position: relative;
+      top: 45% !important;
+      left: 50% !important;
+      transform: translate(-50%, -45%) !important;
+    }
+  }
+
+// 768px
+@media screen and (max-width: 768px) {
+  .f-t {
+    padding-left: 12% !important;
+    padding-right: 12% !important;
+  }
+
+  .br-e {
+    display: block !important;
+  }
+
+  .ft-er {
+    position: relative;
+    top: 0% !important;
+    left: 0% !important;
+    transform: translate(0%, 0%) !important;
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+  // 575px
+  @media screen and (max-width: 575px) {
+    // Footer
+    .f-t {
+      padding-left: 15% !important;
+      padding-right: 15% !important;
+    }
+
+    .h-3 {
+      font-size: 18px !important;
+    }
+
+    .em {
+      font-size: 16px !important;
+    }
+
+  .par {
+    width: 100%;
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+    font-size: 16px !important;
+  }
+
+  #far-fa {
+    font-size: 14px !important;
+  }
+
+  .ft-er {
+    margin-top: 1em !important;
+
+      a {
+        margin-left: 2em !important;
+        font-size: 20px;
+      }
+    
+      a:nth-child(1) {
+        margin-left: 0 !important;
+      }
+    }
+}
+
+// 360px
+@media screen and (max-width: 360px) {
+  .foot {
+    position: relative;
+    top: 42% !important;
+    left: 50% !important;
+    transform: translate(-50%, -42%) !important;
+  }
+
+  .h-3 {
+    font-size: 16px !important;
+  }
+
+  .em {
+    font-size: 14px !important;
+  }
+
+.par {
+  width: 100%;
+  position: absolute;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+  font-size: 14px !important;
+}
+
+#far-fa {
+  font-size: 12px !important;
+}
+
+.ft-er {
+  margin-top: 1em !important;
+
+    a {
+      margin-left: 2em !important;
+      font-size: 18px;
+    }
+  
+    a:nth-child(1) {
+      margin-left: 0 !important;
+    }
+  }
+}
+
+  // 320px
+  @media screen and (max-width: 320px) {
+      .mail-footer, .ig-footer, .twitter-footer {
+        font-size: 18px !important;
+      }
+
+      .foot {
+        position: relative;
+        top: 40% !important;
+        left: 50% !important;
+        transform: translate(-50%, -40%) !important;
+      }
+
+      .ft-er {
+        margin-top: 1em !important;
+      
+          a {
+            margin-left: 1.8em !important;
+            font-size: 18px;
+          }
+        
+          a:nth-child(1) {
+            margin-left: 0 !important;
+          }
+        }
+  }
