@@ -329,11 +329,6 @@
   // Media Queries
   // 1024px
   @media screen and (max-width: 1024px) {
-  .lg {
-    width: 34px !important;
-    height: 34px !important;
-  }
-
   .con-l {
     display: none;
   }
@@ -344,11 +339,6 @@
 }
 
 @media screen and (max-width: 768px) {
-  .lg {
-    width: 32px !important;
-    height: 32px !important;
-  }
-
   .nav-links-2 {
     display: none !important;
   }
@@ -405,20 +395,13 @@
     }
     
     .lg {
-      width: 28px !important;
-      height: 28px !important;
+      width: 34px !important;
+      height: 34px !important;
       position: absolute !important;
       top: 50% !important;
       left: 5%;
       transform: translate(-5%, -50%) !important;
     }
-
-    .menu-wrapper {
-    position: absolute !important;
-    right: 5%;
-    top: 50% !important;
-    transform: translate(-5%, -50%) !important;
-  }
 
   .nav-links {
     margin-top: 25% !important;
@@ -429,13 +412,49 @@
       padding-bottom: 2em !important;
     }
 
+    // Nav Bar Menu
+  $bar-width: 30px;
+  $bar-height: 2.2px;
+  $bar-spacing: 9px;
+
+    .menu-wrapper {
+    position: absolute !important;
+    right: 5%;
+    top: 50% !important;
+    transform: translate(-5%, -50%) !important;
+    width: $bar-width;
+    height: $bar-height + $bar-spacing*2 !important;
+  }
+
   .hamburger-menu,
   .hamburger-menu:after,
   .hamburger-menu:before {
-    width: 25px !important;
+    width: 30px !important;
+    height: $bar-height;
   }
   .hamburger-menu {
-    width: 15.5px !important;
+    width: 20.5px !important;
+  }
+
+  .hamburger-menu {
+    position: relative;
+    transform: translateY($bar-spacing);
+    background: $color2;
+  }
+  
+  .hamburger-menu::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: $bar-spacing;
+    background: $color2;
+    }
+  
+  .hamburger-menu::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: $bar-spacing;
   }
 }
 
@@ -467,8 +486,8 @@
 // 320px
 @media screen and (max-width: 320px) { 
   .lg {
-    width: 28px !important;
-    height: 28px !important;
+    width: 30px !important;
+    height: 30px !important;
   }
 
   .nav-links li {
@@ -492,10 +511,33 @@
   .hamburger-menu,
   .hamburger-menu:after,
   .hamburger-menu:before {
-    width: 23.2px !important;
+    width: 25px !important;
   }
 
   .hamburger-menu {
-    width: 13.2px !important;
+    width: 15px !important;
+  }
+
+  $bar-spacing: 8px;
+
+  .hamburger-menu {
+    position: relative;
+    transform: translateY($bar-spacing);
+    background: $color2;
+  }
+  
+  .hamburger-menu::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: $bar-spacing;
+    background: $color2;
+    }
+  
+  .hamburger-menu::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: $bar-spacing;
   }
 }
