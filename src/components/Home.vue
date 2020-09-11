@@ -2,7 +2,7 @@
   <div class="app-home">
     <!-- Nav Bar -->
 <div class="n" id="nId" :class="{ bkg: isActive }">
-    <a href="https://xtades.netlify.app" id="lg">
+    <a href="https://xtades.xyz" id="lg">
     <img @click="scroll1" class="lg" src="../assets/xtades-logo.svg">
     </a>
 
