@@ -3,7 +3,7 @@
      <!-- Nav Bar -->
 <div class="p-n" id="nId" :class="{ bkg: isActive }">
   <!-- For Desktop (Logo) -->
-  <a href="https://xtades.netlify.app" id="lg1">
+  <a href="https://xtades.xyz" id="lg1">
     <img class="lg x-logo" src="../assets/xtades-logo.svg">
     </a>
     <!-- For Mobile (Logo) -->
@@ -20,7 +20,7 @@
                 <li><router-link to="/designs" class="nl-2 actcolor" id="dId2">
                 <span>Designs</span></router-link></li>
                 <!-- For Desktop (Contact) -->
-                  <li class="con-l"><a href="https://xtades.netlify.app/#contactId" class="nl-2 acolor" id="cId2">
+                  <li class="con-l"><a href="https://xtades.xyz/#contactId" class="nl-2 acolor" id="cId2">
                   <span>Contact</span></a></li>
                   <!-- For Mobile (Contact) -->
                   <li class="ct-l"><router-link to="/contact" class="nl-2 acolor" id="cId2">
