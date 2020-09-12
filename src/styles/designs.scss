@@ -28,7 +28,7 @@ body {
     .ds {
       font-family: $font !important;
       font-weight: 800 !important;
-      font-size: 3rem !important;
+      font-size: 3.2rem !important;
       color: $bColor;
       -webkit-text-stroke: 2px $color2;
       letter-spacing: 0.2px !important;
@@ -236,6 +236,10 @@ body {
       padding-bottom: 4em !important;
     }
 
+    .ds {
+      font-size: 3rem !important;
+    }
+
     .de-signs {
 
        img {
@@ -259,6 +263,10 @@ body {
   @media screen and (max-width: 380px) {
     .designs {
       padding-bottom: 4em !important;
+    }
+
+    .ds {
+      font-size: 3rem !important;
     }
 
     .de-signs {
@@ -288,8 +296,25 @@ body {
 
 // 360px
 @media screen and (max-width: 360px) {
+  .ds {
+    font-size: 3rem !important;
+  }
+
   .des {
     padding-top: 0.5em !important;
+  }
+
+  .de-signs {
+
+    img {
+      width: 320px;
+      height: 315px !important;
+    }
+  }
+  
+  #ui1, #ui2, #ui3, #ui4 {
+    width: 320px !important;
+    height: 315px !important;
   }
 }
 
@@ -310,7 +335,7 @@ body {
   }
 
   .ds {
-    font-size: 2.5rem !important;
+    font-size: 2.8rem !important;
   }
 
   .de-signs {
