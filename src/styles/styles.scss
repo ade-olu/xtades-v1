@@ -75,7 +75,7 @@
 
 #arrow {
   color: $color2;
-  font-size: 40px !important;
+  font-size: 50px !important;
   animation: move 1s infinite !important;
   position: absolute !important;
   margin-left: 28% !important;
@@ -445,19 +445,15 @@ body[data-aos-duration='550'] [data-aos],
 // 575px
 @media screen and (max-width: 575px) {
   .hello {
-    font-size: 110px !important;
+    font-size: 120px !important;
   }
 
   .r-m {
   margin-top: -40px !important;
   }
 
-  .arw {
-  margin-top: -15px !important;
-  }
-
   #arrow {
-    font-size: 32px !important;
+    font-size: 45px !important;
   }
 
   #myN {
@@ -518,6 +514,10 @@ body[data-aos-duration='550'] [data-aos],
       width: 78%;
     }
   
+    #arrow {
+      font-size: 36px !important;
+    }
+
     .ab-txt {
       font-size: 18px !important;
     }
