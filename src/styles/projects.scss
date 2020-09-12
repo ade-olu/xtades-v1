@@ -28,7 +28,7 @@ body {
   .pj {
     font-family: $font !important;
     font-weight: 800 !important;
-    font-size: 3rem !important;
+    font-size: 3.2rem !important;
     color: $bColor;
     -webkit-text-stroke: 2px $color2;
     letter-spacing: 0.2px !important;
@@ -145,6 +145,10 @@ body {
     padding-bottom: 4em !important;
   }
 
+  .pj {
+    font-size: 3rem !important;
+  }
+
   .gallery {
     padding: 2em 0% 0em 0% !important;
 
@@ -180,6 +184,10 @@ body {
 // 375px & 380px
   @media screen and (min-width: 375px) {
     @media screen and (max-width: 380px) {
+      .pj {
+        font-size: 3rem !important;
+      }
+
     .proj {
      padding-top: 0.5em !important;
     }
@@ -229,8 +237,17 @@ body {
 
 // 360px
 @media screen and (max-width: 360px) {
+  .pj {
+    font-size: 3rem !important;
+  }
+
   .proj {
     padding-top: 0.5em !important;
+  }
+
+  .pr {
+    width: 320px !important;
+    height: 315px;
   }
 }
 
@@ -245,7 +262,7 @@ body {
   }
 
   .pj {
-    font-size: 2.5rem !important;
+    font-size: 2.8rem !important;
   }
 
   .gallery {
