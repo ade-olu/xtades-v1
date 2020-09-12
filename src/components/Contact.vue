@@ -49,7 +49,7 @@
         <div class="ct">
             <h1 class="c-hed">Contact Me</h1>
             <!-- Form -->
-            <form class="conForm" action="https://formspree.io/adegbajuoezekiel@gmail.com" method="POST">
+            <form class="conForm" action="https://formspree.io/mvovppoe" method="POST">
                 <!-- Name -->
                 <div class="f-d">
                 <label class="name-label" for="fName"><span class="s-l">Full Name</span></label>
