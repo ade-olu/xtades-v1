@@ -195,7 +195,7 @@ body[data-aos-duration='550'] [data-aos],
   top: 50% !important;
   left: 50%;
   transform: translate(-50%, -50%) !important;
-  font-size: 50px !important;
+  font-size: 3.2rem !important;
   font-family: $font !important;
   font-weight: 800 !important;
   letter-spacing: 0.2px;
@@ -236,7 +236,7 @@ body[data-aos-duration='550'] [data-aos],
   text-align: center;
   font-family: $font !important;
   font-weight: 800 !important;
-  font-size: 3rem !important;
+  font-size: 3.2rem !important;
   color: $color4;
   -webkit-text-stroke: 2px $color2;
   letter-spacing: 0.2px;
@@ -423,10 +423,6 @@ body[data-aos-duration='550'] [data-aos],
     font-size: 150px !important;
   }
 
-  #myN {
-    font-size: 3rem !important;
-  }
-
   .text {
     width: 80% !important;
   }
@@ -457,7 +453,7 @@ body[data-aos-duration='550'] [data-aos],
   }
 
   #myN {
-    font-size: 2.5rem !important;
+    font-size: 2.6rem !important;
     width: 78%;
   }
 
@@ -468,39 +464,6 @@ body[data-aos-duration='550'] [data-aos],
   .sc1, .sc2, .sc3, .sc4 {
     display: none !important;
   }
-
-  .conForm {
-    .f-d {
-      width: 320px !important;
-    }
-
-    input[type = "name"], input[type = "email"], textarea[type = "text"] {
-    width: 260px !important;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-  }
-
-  .name-label {
-    position: absolute;
-    top: -26%;
-    left: 8% !important;
-    transform: translate(-8%, 26%) !important;
-  }
-
-  .mail-label {
-    position: absolute;
-    top: -26%;
-    left: 7% !important;
-    transform: translate(-7%, 26%) !important;
-  }
-
-  .mes-label {
-    position: absolute;
-    top: -10%;
-    left: 8% !important;
-    transform: translate(-8%, 10%) !important;
-  }
- }
 }
 
 // 320px
@@ -521,37 +484,4 @@ body[data-aos-duration='550'] [data-aos],
     .ab-txt {
       font-size: 18px !important;
     }
-
-    .c-hed {
-      font-size: 2.5rem !important;
-    }
-
-    .conForm {
-      input[type = "name"], input[type = "email"], textarea[type = "text"] {
-      width: 220px !important;
-      padding-left: 5% !important;
-      padding-right: 5% !important;
-    }
-
-    .name-label {
-      position: absolute;
-      top: -26%;
-      left: 18% !important;
-      transform: translate(-18%, 26%) !important;
-    }
-  
-    .mail-label {
-      position: absolute;
-      top: -26%;
-      left: 16% !important;
-      transform: translate(-16%, 26%) !important;
-    }
-  
-    .mes-label {
-      position: absolute;
-      top: -10%;
-      left: 18% !important;
-      transform: translate(-18%, 10%) !important;
-    }
-  }
 }
