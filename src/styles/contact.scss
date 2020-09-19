@@ -142,7 +142,8 @@
   
     .slide {
       background: none;
-      width: 180px;
+      width: 240px;
+      height: 4em !important;
       font-family: $font !important;
       font-weight: 600 !important;
       display: block;
@@ -159,7 +160,7 @@
       cursor: pointer !important;
   
       &:hover, &:focus {
-        box-shadow: inset 15em 0 0 0 $color4;
+        box-shadow: inset 20em 0 0 0 $color4;
         color: $bColor;
       }
       &:active {
@@ -222,10 +223,6 @@
         width: 260px !important;
         padding-left: 5% !important;
         padding-right: 5% !important;
-      }
-    
-      .s-l {
-        font-size: 10px;
       }
 
       .name-label {
@@ -293,6 +290,10 @@
         width: 220px !important;
         padding-left: 5% !important;
         padding-right: 5% !important;
+      }
+
+      .slide {
+        width: 220px !important;
       }
   
       .name-label {
