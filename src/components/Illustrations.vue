@@ -3,7 +3,7 @@
      <!-- Nav Bar -->
 <div class="p-n" id="nId" :class="{ bkg: isActive }">
   <!-- For Desktop (Logo) -->
-  <a href="https://xtades.xyz" id="lg1">
+  <a href="/" id="lg1">
     <img class="lg x-logo" src="../assets/xtades-logo.svg">
     </a>
     <!-- For Mobile (Logo) -->
