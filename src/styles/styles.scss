@@ -347,11 +347,12 @@ body[data-aos-duration='550'] [data-aos],
 
   .slide {
     background: none;
-    width: 180px;
+    width: 240px;
+    height: 4em !important;
     font-family: $font !important;
     font-weight: 600 !important;
     display: block;
-    margin: 20px auto !important;
+    margin: 30px auto !important;
     text-align: center;
     border: 2px solid $color2;
     padding: 12px 38px !important;
@@ -364,7 +365,7 @@ body[data-aos-duration='550'] [data-aos],
     cursor: pointer !important;
 
     &:hover, &:focus {
-      box-shadow: inset 15em 0 0 0 $color4;
+      box-shadow: inset 20em 0 0 0 $color4;
       color: $bColor;
     }
     &:active {
