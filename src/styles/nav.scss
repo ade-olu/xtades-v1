@@ -45,9 +45,9 @@
     }
   
     // Nav Bar Menu
-  $bar-width: 27px;
-  $bar-height: 2px;
-  $bar-spacing: 6.8px;
+    $bar-width: 32px;
+    $bar-height: 2.2px;
+    $bar-spacing: 9px;
   
   .menu-wrapper {
     position: fixed !important;
@@ -77,7 +77,7 @@
   }
   
   .hamburger-menu{
-    width: 16.5px;
+    width: 20px;
   }
   
   .hamburger-menu {
@@ -424,7 +424,7 @@
     }
 
     // Nav Bar Menu
-  $bar-width: 30px;
+  $bar-width: 34px;
   $bar-height: 2.2px;
   $bar-spacing: 9px;
 
@@ -440,11 +440,11 @@
   .hamburger-menu,
   .hamburger-menu:after,
   .hamburger-menu:before {
-    width: 30px !important;
+    width: 34px !important;
     height: $bar-height;
   }
   .hamburger-menu {
-    width: 20.5px !important;
+    width: 20px !important;
   }
 
   .hamburger-menu {
@@ -516,17 +516,20 @@
 
   .menu-wrapper {
     position: absolute !important;
-    width: 22.5px !important;
+    right: 6%;
+    top: 50% !important;
+    transform: translate(-6%, -50%) !important;
+    width: 30px !important;
   }
 
   .hamburger-menu,
   .hamburger-menu:after,
   .hamburger-menu:before {
-    width: 25px !important;
+    width: 30px !important;
   }
 
   .hamburger-menu {
-    width: 15px !important;
+    width: 18px !important;
   }
 
   $bar-spacing: 8px;
