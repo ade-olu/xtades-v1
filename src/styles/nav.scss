@@ -45,7 +45,7 @@
     }
   
     // Nav Bar Menu
-    $bar-width: 32px;
+    $bar-width: 30px;
     $bar-height: 2.2px;
     $bar-spacing: 9px;
   
@@ -424,7 +424,7 @@
     }
 
     // Nav Bar Menu
-  $bar-width: 32px;
+  $bar-width: 30px;
   $bar-height: 2.2px;
   $bar-spacing: 9px;
 
@@ -440,7 +440,7 @@
   .hamburger-menu,
   .hamburger-menu:after,
   .hamburger-menu:before {
-    width: 32px !important;
+    width: 30px !important;
     height: $bar-height;
   }
   .hamburger-menu {
