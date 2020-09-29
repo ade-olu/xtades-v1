@@ -363,6 +363,7 @@ body[data-aos-duration='550'] [data-aos],
     transition: all 500ms ease !important;
     border-radius: 8px !important;
     cursor: pointer !important;
+    text-transform: uppercase;
 
     &:hover, &:focus {
       box-shadow: inset 20em 0 0 0 $color4;
