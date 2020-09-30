@@ -35,7 +35,7 @@
   top: 55% !important;
   left: 50% !important;
   transform: translate(-50%, -55%) !important;
-  font-size: 164px !important;
+  font-size: 160px !important;
   font-family: $font !important;
   font-weight: 900 !important;
   text-transform: uppercase;
@@ -66,8 +66,8 @@
 }
 
 .arw {
-  width: 50px;
-  height: 50px;
+  width: 60px;
+  height: 60px;
   position: relative;
   margin-left: 28% !important;
   margin-top: -10px !important;
@@ -421,7 +421,11 @@ body[data-aos-duration='550'] [data-aos],
   }
 
   .hello {
-    font-size: 150px !important;
+    font-size: 145px !important;
+  }
+
+  #arrow {
+    font-size: 58px !important;
   }
 
   .text {
@@ -442,7 +446,7 @@ body[data-aos-duration='550'] [data-aos],
 // 575px
 @media screen and (max-width: 575px) {
   .hello {
-    font-size: 120px !important;
+    font-size: 115px !important;
   }
 
   .r-m {
@@ -470,7 +474,7 @@ body[data-aos-duration='550'] [data-aos],
 // 320px
   @media screen and (max-width: 320px) {
     .hello {
-      font-size: 100px !important;
+      font-size: 95px !important;
     }
 
     #myN {
