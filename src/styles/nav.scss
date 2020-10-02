@@ -406,8 +406,8 @@
     }
     
     .lg, .x-logo {
-      width: 38px !important;
-      height: 38px !important;
+      width: 36px !important;
+      height: 36px !important;
       position: absolute !important;
       top: 50% !important;
       left: 5%;
@@ -470,7 +470,7 @@
 
   .hamburger-menu.animate::before, 
   .hamburger-menu.animate::after {
-    width: 34px !important;
+    width: 35px !important;
   }
 }
 
@@ -502,8 +502,8 @@
 // 320px
 @media screen and (max-width: 320px) { 
   .lg, .x-logo {
-    width: 34px !important;
-    height: 34px !important;
+    width: 32px !important;
+    height: 32px !important;
   }
 
   .nav-links li {
