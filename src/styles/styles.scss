@@ -3,199 +3,490 @@
 @import "nav.scss";
 @import "footer.scss";
 
-.app-home, .app-about {
-    font-family: $font2;
-    overflow-x: hidden !important;
-    background: $bColor !important;
-    -webkit-tap-highlight-color: transparent !important;
-  }
+.app-home {
+  font-family: $font;
+  letter-spacing: 0.2px !important;
+  background: $bColor !important;
+  -webkit-tap-highlight-color: transparent !important;
+}
 
-  // Home
-  .home {
-    height: auto;
-    padding-bottom: 2em !important;
-  }
+.visible {
+  visibility: hidden !important;
+}
 
-  .hm {
-      position: absolute;
-      top: 45%;
-      left: 50%;
-      transform: translate(-50%, -45%) !important;
-      width: 100% !important;
-  }
+.bg {
+  background: $bColor !important;
+}
 
-  // Title
-  .e-s {
-    font-size: 60px !important;
+.pd {
+  padding-bottom: 0 !important;
+}
+
+// Home
+.home {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, $color3 50%, $bColor 50%);
+  border-bottom: 1px solid $bColor;
+}
+
+.hl {
+  position: absolute;
+  top: 55% !important;
+  left: 50% !important;
+  transform: translate(-50%, -55%) !important;
+  font-size: 158px !important;
+  font-family: $font !important;
+  font-weight: 900 !important;
+  text-transform: uppercase;
+  color: $color2;
+  text-align: justify !important;
+  letter-spacing: 0.2px !important;
+}
+
+.r-m {
+  margin-top: -60px !important;
+}
+
+.hello a {
+  text-decoration: none !important;
+  color: $color4 !important;
+}
+
+@keyframes move {
+  0% {
+    top: 8px;
+  }
+  50% {
+    top: 28px;
+  }
+  100% {
+    top: 8px;
+  }
+}
+
+.arw {
+  width: 60px;
+  height: 60px;
+  position: relative;
+  margin-left: 28% !important;
+  margin-top: -10px !important;
+}
+
+#arrow {
+  color: $color2;
+  font-size: 60px !important;
+  animation: move 1s infinite !important;
+  position: absolute !important;
+  margin-left: 28% !important;
+  
+}
+
+.arw2 {
+  display: none;
+}
+
+// Fade Hello Anim Dur
+body[data-aos-duration='550'] [data-aos],
+[data-aos][data-aos][data-aos-duration='550'] {
+  transition-duration: 550ms;
+}
+
+.dis {
+  background: linear-gradient(90deg, $bColor 25%, $bColor 50%, $bColor 50%);
+}
+
+// Scroll Buttons (Squircles)
+.sc1, .sc2, .sc3, .sc4 {
+  width: 17px;
+  height: 17px;
+  display: block !important;
+  cursor: pointer !important;
+  fill: none !important;
+  margin-top: 1.6em !important;
+  stroke: $color2 !important;
+}
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  left: 92%;
+  bottom: 22%;
+}
+
+.sc1 {
+  transition: all 250ms ease !important;
+
+  &:active {
+    transform: scale(1.5);
+    fill: $color3 !important;
+  }
+}
+
+.sc2 {
+  transition: all 250ms ease !important;
+
+  &:active {
+    transform: scale(1.5);
+    fill: $color3 !important;
+  }
+}
+
+.sc3 {
+  transition: all 250ms ease !important;
+
+  &:active {
+    transform: scale(1.5);
+    fill: $color3 !important;
+  }
+}
+
+.sc4 {
+  transition: all 250ms ease !important;
+
+  &:active {
+    transform: scale(1.5);
+    fill: $color3 !important;
+  }
+}
+
+.ncolor {
+  transition: all 250ms ease !important;
+  
+  &:active {
+    fill: $bColor !important;
+  }
+}
+
+.switch {
+  transition: all 250ms ease !important;
+  fill: $color3 !important;
+  transform: rotate(45deg) scale(1.25);
+}
+
+.normal {
+  transition: all 250ms ease !important;
+  fill: none !important;
+  transform: rotate(0deg) scale(1);
+}
+
+.switch4 {
+  transition: all 250ms ease !important;
+  transform: rotate(45deg) scale(1.25);
+  fill: $bColor !important;
+
+  &:active {
+    fill: $bColor !important;
+  }
+}
+
+// About (Home)
+.about {
+  width: 100%;
+  height: 100vh;
+  background: $bColor;
+  position: relative;
+}
+
+.text {
+  width: 100% !important;
+  position: absolute;
+  top: 50% !important;
+  left: 50%;
+  transform: translate(-50%, -50%) !important;
+  font-size: 3.4rem !important;
+  font-family: $font !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.2px;
+}
+
+.sn {
+  color: $color4;
+  -webkit-text-stroke: 2px $color2;
+}
+
+.ab-txt {
+  font-size: 24px !important;
+  font-family: $font !important;
+  font-weight: 800 !important;
+  letter-spacing: 0.2px;
+  color: $color2;
+  -webkit-text-stroke: 0px $color2;
+}
+
+// Contact
+.contact {
+  width: 100%;
+  height: 100vh;
+  background: $bColor;
+  margin-right: auto !important;
+  margin-left: auto !important;
+  border-bottom: 1px solid $color4;
+}
+
+.cont {
+  position: relative;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+}
+
+.c-hed {
+  text-align: center;
+  font-family: $font !important;
+  font-weight: 800 !important;
+  font-size: 3.4rem !important;
+  color: $color4;
+  -webkit-text-stroke: 2px $color2;
+  letter-spacing: 0.2px;
+}
+
+.conForm {
+  padding-top: 2em !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+  input[type = "name"], input[type = "email"] {
+    background: none !important;
     font-family: $font !important;
-    font-weight: 700 !important;
-    color: $color !important;
+    font-weight: 600 !important;
+    display: block;
+    margin: 30px auto !important;
+    border: 2px solid $color2;
+    padding: 12px 5% !important;
+    width: 300px;
+    height: 2.2em;
+    outline: none;
+    color: $color2;
+    transition: 250ms ease;
+    border-radius: 8px !important;
+    font-size: 15px;
+    letter-spacing: 0.2px !important;
   }
 
-  .bk {
+  textarea[type = "text"] {
+    background: none !important;
+    font-family: $font !important;
+    font-weight: 600 !important;
+    display: block;
+    margin: 30px auto !important;
+    border: 2px solid $color2;
+    padding: 20px 5% !important;
+    width: 300px;
+    height: 80px;
+    outline: none;
+    color: $color2;
+    transition: 250ms ease;
+    border-radius: 8px !important;
+    font-size: 15px;
+    letter-spacing: 0.2px !important;
+  }
+
+  ::placeholder {
+    color: $color2 !important;
+    font-size: 15px;
+    letter-spacing: 0.2px !important;
+    opacity: 0.7 !important;
+  }
+  :-ms-input-placeholder {
+    color: $color2 !important;
+    font-size: 15px;
+    letter-spacing: 0.2px !important;
+    opacity: 0.7 !important;
+  }
+
+  input:focus::placeholder {
+    color: transparent !important;
+  }
+
+  textarea:focus::placeholder {
+    color: transparent !important;
+  }
+
+  // Labels
+  .f-d {
+  width: 400px !important;
+  position: relative;
+  margin: 0 auto !important;
+  }
+
+  .s-l {
+    margin-left: 1em !important;
+    margin-right: 1em !important;
+    background: $color4;
+    border-radius: 30px;
+    padding: 0.2em 1em !important;
+    border: 2px solid $color2;
+    text-transform: uppercase;
+    color: $bColor;
+    font-size: 12px;
+    font-weight: 600 !important;
+  }
+
+  .name-label {
+    position: absolute;
+    top: -26%;
+    left: 12% !important;
+    transform: translate(-12%, 26%) !important;
+  }
+
+  .mail-label {
+    position: absolute;
+    top: -26%;
+    left: 11% !important;
+    transform: translate(-11%, 26%) !important;
+  }
+
+  .mes-label {
+    position: absolute;
+    top: -10%;
+    left: 12% !important;
+    transform: translate(-12%, 10%) !important;
+  }
+
+  .slide {
+    background: none;
+    width: 240px;
+    height: 4em !important;
+    font-family: $font !important;
+    font-weight: 600 !important;
+    display: block;
+    margin: 30px auto !important;
+    text-align: center;
+    border: 2px solid $color2;
+    padding: 12px 38px !important;
+    outline: none;
+    color: $color2;
+    font-size: 15px !important;
+    letter-spacing: 0.2px !important;
+    transition: all 500ms ease !important;
+    border-radius: 8px !important;
+    cursor: pointer !important;
+
+    &:hover, &:focus {
+      box-shadow: inset 20em 0 0 0 $color4;
+      color: $bColor;
+    }
+    &:active {
+      transform: scale(0.96);
+    }
+  }
+}
+
+// Media Queries
+// 1024px
+@media screen and (max-width: 1024px) {
+  .arw1 {
     display: none;
   }
 
-  // Text
-  .h-txt, .h-txt-2 {
+  .arw2 {
+    display: block;
+  }
+
+  .about {
+    height: 50vh !important;
+  }
+
+  .hl {
+    position: absolute;
+    top: 50% !important;
+    left: 50% !important;
+    transform: translate(-50%, -50%) !important;
+  }
+
+  .home {
+    height: 100vh;
+    border-bottom: 0px solid black !important;
+  }
+
+  .scroll {
+    bottom: 42%;
+  }
+
+  .sc2, .sc3 {
+    display: none !important;
+  }
+
+  .contact {
+    display: none;
+  }
+}
+
+// 768px
+@media screen and (max-width: 768px) {
+  .cover {
+    display: none;
+  }
+
+  .hello {
+    font-size: 145px !important;
+  }
+
+  #arrow {
+    font-size: 58px !important;
+  }
+
+  .text {
+    width: 80% !important;
+  }
+
+  // Scroll Buttons (Squircles)
+.sc1, .sc2 {
+  width: 14px;
+  height: 14px;
+  }
+
+  .scroll {
+    bottom: 40%;
+  }
+}
+
+// 575px
+@media screen and (max-width: 575px) {
+  .hello {
+    font-size: 115px !important;
+  }
+
+  .r-m {
+  margin-top: -40px !important;
+  }
+
+  #arrow {
+    font-size: 52px !important;
+  }
+
+  #myN {
+    font-size: 2.6rem !important;
+    width: 78%;
+  }
+
+  .ab-txt {
     font-size: 20px !important;
-    font-family: $font2 !important;
-    font-weight: 500 !important;
-    color: $color !important;
   }
 
-  // Get Started Btn
-  .gs-btn {
-    width: 180px;
-    height: 25px;
-    border-radius: 30px;
-    margin-left: auto !important;
-    margin-right: auto !important;
-    color: $color;
-    text-align: center !important;
-    padding-top: 8px !important;
-    padding-bottom: 10px !important;
-    cursor: pointer !important;
-    border: 2px solid $color;
-    overflow: hidden;
-    text-decoration: none;
-    transition: 0.3s color ease-in-out;
-    transition: 0.3s transform ease-in-out;
-    will-change: transform;
-    z-index: 0;
-   
-
-     &::after {
-      background-color: $color;
-      border-radius: 30px;
-      content: '';
-      display: block;
-      height: 100%;
-      width: 100%;
-      position: absolute;
-      left: 0;
-      top: 0;
-      transform: translate(-100%, 0) rotate(10deg);
-      transform-origin: top left;
-      transition: 0.3s color ease-out;
-      transition: 0.3s transform ease-out;
-      will-change: transform;
-      z-index: -1;
-    }
-
-    &:hover {
-      border: 2px solid transparent;
-      color: $bColor;
-      transform: scale(1.05);
-      will-change: transform;
-
-      &::after {
-      transform: translate(0, 0);
-    }
+  .sc1, .sc2, .sc3, .sc4 {
+    display: none !important;
   }
 }
 
-.gs {
-    font-family: $font2 !important;
-    font-weight: 700 !important;
-    font-size: 18px;
-}
-
-// About
-.about {
-    width: 100%;
-    height: auto;
-    padding-bottom: 2em !important;
-}
-
-.ab {
-    position: absolute;
-    top: 24%;
-    left: 50%;
-    transform: translate(-50%, -24%) !important;
-}
-
-.brand {
-    width: 60px;
-    height: 60px;
-    background-image: url(../assets/xtades-logo.svg) !important;
-    background-size: 60px 60px !important;
-    text-decoration: none !important;
-    margin-left: auto !important;
-    margin-right: auto !important;
-  }
-
-  // 575px
-  @media screen and (max-width: 575px) {
-   .hm, .ab {
-    width: 80% !important;
-   }
-
-    .e-s {
-      font-size: 45px !important;
+// 320px
+  @media screen and (max-width: 320px) {
+    .hello {
+      font-size: 95px !important;
     }
 
-    .bk {
-      display: block !important;
+    #myN {
+      font-size: 2.2rem !important;
+      width: 78%;
+    }
+  
+    #arrow {
+      font-size: 48px !important;
     }
 
-    .h-txt, .h-txt-2 {
+    .ab-txt {
       font-size: 18px !important;
-      text-align: center !important;
     }
-
-    // Get Started Btn
-  .gs-btn {
-    width: 160px;
-    height: 25px;
-    border-radius: 30px;
-    padding-top: 8px !important;
-    padding-bottom: 10px !important;
 }
-
-.gs {
-    font-size: 17px;
-}
-
-.ab {
-    position: absolute;
-    top: 18%;
-    left: 50%;
-    transform: translate(-50%, -18%) !important;
-    width: 80% !important;
-  }
-
-  }
-
-  // 320px
-  @media screen and (max-width: 320px) { 
-   .hm, .ab {
-    width: 80% !important;
-   }
-
-    .e-s {
-      font-size: 40px !important;
-    }
-
-    .bk {
-      display: block !important;
-    }
-
-    .h-txt, .h-txt-2 {
-      font-size: 15px !important;
-      text-align: center !important;
-    }
-
-    // Get Started Btn
-  .gs-btn {
-    width: 140px;
-    height: 20px;
-    border-radius: 30px;
-    padding-top: 5px !important;
-    padding-bottom: 10px !important;
-}
-
-.gs {
-    font-size: 15px;
-}
-  }
