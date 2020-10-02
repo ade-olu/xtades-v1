@@ -26,8 +26,8 @@
       top: 4% !important;
       transform: translate(-5%, -4%) !important;
       text-decoration: none !important;
-      width: 40px !important;
-      height: 40px !important;
+      width: 44px !important;
+      height: 44px !important;
       z-index: 1 !important;
     }
 
@@ -36,8 +36,8 @@
       left: 5%;
       top: 4% !important;
       transform: translate(-5%, -4%) !important;
-      width: 40px !important;
-      height: 40px !important;
+      width: 44px !important;
+      height: 44px !important;
     }
 
     #lg2 {
@@ -47,7 +47,7 @@
     // Nav Bar Menu
     $bar-width: 32px;
     $bar-height: 2.2px;
-    $bar-spacing: 9px;
+    $bar-spacing: 10px;
   
   .menu-wrapper {
     position: fixed !important;
@@ -159,7 +159,7 @@
   .nav-links-2 li {
     margin-left: 1em !important;
     margin-right: 1em !important;
-    font-size: 19px;
+    font-size: 20px;
   }
   
   .nav-links-2 li a {
@@ -346,8 +346,8 @@
 
 @media screen and (max-width: 768px) {
   .lg, .x-logo {
-    width: 38px !important;
-    height: 38px !important;
+    width: 40px !important;
+    height: 40px !important;
   }
 
   .nav-links-2 {
@@ -406,8 +406,8 @@
     }
     
     .lg, .x-logo {
-      width: 35px !important;
-      height: 35px !important;
+      width: 38px !important;
+      height: 38px !important;
       position: absolute !important;
       top: 50% !important;
       left: 5%;
@@ -426,7 +426,7 @@
     // Nav Bar Menu
   $bar-width: 32px;
   $bar-height: 2.2px;
-  $bar-spacing: 9px;
+  $bar-spacing: 10px;
 
     .menu-wrapper {
     position: absolute !important;
@@ -502,8 +502,8 @@
 // 320px
 @media screen and (max-width: 320px) { 
   .lg, .x-logo {
-    width: 31px !important;
-    height: 31px !important;
+    width: 34px !important;
+    height: 34px !important;
   }
 
   .nav-links li {
@@ -537,7 +537,7 @@
     width: 18px !important;
   }
 
-  $bar-spacing: 8px;
+  $bar-spacing: 9px;
 
   .hamburger-menu {
     position: relative;
