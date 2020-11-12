@@ -32,10 +32,10 @@
 
 .hl {
   position: absolute;
-  top: 54% !important;
+  top: 53% !important;
   left: 50% !important;
-  transform: translate(-50%, -54%) !important;
-  font-size: 154px !important;
+  transform: translate(-50%, -53%) !important;
+  font-size: 150px !important;
   font-family: $font !important;
   font-weight: 900 !important;
   text-transform: uppercase;
@@ -66,8 +66,8 @@
 }
 
 .arw {
-  width: 50px;
-  height: 50px;
+  width: 44px;
+  height: 44px;
   position: relative;
   margin-left: 28% !important;
   margin-top: -10px !important;
@@ -75,8 +75,8 @@
 
 #arrow {
   color: $color2;
-  width: 48px;
-  height: 48px;
+  width: 44px;
+  height: 44px;
   animation: move 1s infinite !important;
   position: absolute !important;
   margin-left: 28% !important;
@@ -377,13 +377,17 @@ body[data-aos-duration='550'] [data-aos],
 // Media Queries
 // 1024px
 @media screen and (max-width: 1024px) {
+  .hl {
+    font-size: 150px !important;
+  }
+
   .arw1 {
     display: none;
   }
 
 #arrow {
-  width: 43px !important;
-  height: 43px !important;
+  width: 42px !important;
+  height: 42px !important;
 }
 
   .arw2 {
@@ -426,7 +430,7 @@ body[data-aos-duration='550'] [data-aos],
   }
 
   .hello {
-    font-size: 144px !important;
+    font-size: 142px !important;
   }
 
   #arrow {
@@ -452,7 +456,7 @@ body[data-aos-duration='550'] [data-aos],
 // 575px
 @media screen and (max-width: 575px) {
   .hello {
-    font-size: 114px !important;
+    font-size: 110px !important;
   }
 
   .r-m {
@@ -481,7 +485,7 @@ body[data-aos-duration='550'] [data-aos],
 // 320px
   @media screen and (max-width: 320px) {
     .hello {
-      font-size: 94px !important;
+      font-size: 90px !important;
     }
 
     #myN {
