@@ -32,10 +32,10 @@
 
 .hl {
   position: absolute;
-  top: 55% !important;
+  top: 54% !important;
   left: 50% !important;
-  transform: translate(-50%, -55%) !important;
-  font-size: 156px !important;
+  transform: translate(-50%, -54%) !important;
+  font-size: 154px !important;
   font-family: $font !important;
   font-weight: 900 !important;
   text-transform: uppercase;
@@ -66,8 +66,8 @@
 }
 
 .arw {
-  width: 64px;
-  height: 64px;
+  width: 50px;
+  height: 50px;
   position: relative;
   margin-left: 28% !important;
   margin-top: -10px !important;
@@ -75,11 +75,11 @@
 
 #arrow {
   color: $color2;
-  font-size: 64px !important;
+  width: 48px;
+  height: 48px;
   animation: move 1s infinite !important;
   position: absolute !important;
   margin-left: 28% !important;
-  
 }
 
 .arw2 {
@@ -381,6 +381,11 @@ body[data-aos-duration='550'] [data-aos],
     display: none;
   }
 
+#arrow {
+  width: 43px !important;
+  height: 43px !important;
+}
+
   .arw2 {
     display: block;
   }
@@ -421,11 +426,12 @@ body[data-aos-duration='550'] [data-aos],
   }
 
   .hello {
-    font-size: 146px !important;
+    font-size: 144px !important;
   }
 
   #arrow {
-    font-size: 62px !important;
+    width: 40px !important;
+    height: 40px !important;
   }
 
   .text {
@@ -446,7 +452,7 @@ body[data-aos-duration='550'] [data-aos],
 // 575px
 @media screen and (max-width: 575px) {
   .hello {
-    font-size: 116px !important;
+    font-size: 114px !important;
   }
 
   .r-m {
@@ -454,7 +460,8 @@ body[data-aos-duration='550'] [data-aos],
   }
 
   #arrow {
-    font-size: 58px !important;
+    width: 38px !important;
+    height: 38px !important;
   }
 
   #myN {
@@ -474,7 +481,7 @@ body[data-aos-duration='550'] [data-aos],
 // 320px
   @media screen and (max-width: 320px) {
     .hello {
-      font-size: 96px !important;
+      font-size: 94px !important;
     }
 
     #myN {
@@ -483,7 +490,8 @@ body[data-aos-duration='550'] [data-aos],
     }
   
     #arrow {
-      font-size: 52px !important;
+      width: 34px !important;
+      height: 34px !important;
     }
 
     .ab-txt {
