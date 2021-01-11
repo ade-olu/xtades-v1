@@ -145,7 +145,7 @@
     <!-- Instagram -->
     <a href="https://www.instagram.com/ade._olu/" id="aId" target="_blank"><i class="fab fa-instagram" id="iId"></i></a>
     <!-- Twitter -->
-    <a href="https://www.twitter.com/_ade_olu/" id="aId" target="_blank"><i class="fab fa-twitter" id="iId"></i></a>
+    <a href="https://www.twitter.com/tobiadegbaju/" id="aId" target="_blank"><i class="fab fa-twitter" id="iId"></i></a>
     <!-- LinkedIn -->
     <a href="https://www.linkedin.com/in/tobiloba-adegbaju/" id="aId" target="_blank"><i class="fab fa-linkedin-in" id="iId"></i></a>
     <!-- GitHub -->
