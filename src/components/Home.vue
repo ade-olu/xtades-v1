@@ -139,7 +139,7 @@
     <br><br>
 
     <div class="f-bt">
-    <p class="par"><i class="far fa-copyright" id="far-fa"></i> Oluwatobiloba Adegbaju 2020</p>
+    <p class="par"><i class="far fa-copyright" id="far-fa"></i> Oluwatobiloba Adegbaju 2021</p>
     <br class="br-e"><br class="br-e">
     <div class="ft-er">
     <!-- Instagram -->
