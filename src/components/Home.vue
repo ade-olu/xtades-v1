@@ -80,7 +80,7 @@
         I'm Oluwatobiloba Adegbaju
         <br>
         <span class="ab-txt" id="abTxt">
-        Front-End Developer & UI Designer
+        Frontend Developer & UI/UX Designer
     </span>
         </div>
 
